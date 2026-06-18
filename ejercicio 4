@@ -1,0 +1,8 @@
+Proceso ejemplo4
+	Definir A Como Entero;
+	
+	Escribir "ingrese numero :";
+	Leer A;
+
+FinProceso
+	
