@@ -1,0 +1,18 @@
+Algoritmo ejercicios_de_operadores_logicos
+	Definir a , b , c , d Como Entero
+	Escribir " valor de a"
+	leer a
+	Escribir " valor de b"
+	leer b
+	Escribir " valor de c"
+	leer c
+	Escribir " valor de d"
+	leer d
+	
+    Escribir (a < 17) Y (b < 17)
+     Escribir (a=b) y (b=c) , (b<>c );
+     Escribir (a<b) Y (b<c) Y (a<d) Y (d<c)
+     Escribir (a=b) O  (b=C )  O (a=c)
+	
+	
+FinAlgoritmo
