@@ -1,0 +1,12 @@
+Algoritmo encuesta
+	definir edad Como Entero
+	Escribir digite su edad 
+	leer edad
+	si edad>17  Entonces
+		Escribir "accedio
+	SiNo
+		Escribir "no ùede acceder a la encuesta"
+		
+	FinSi
+	
+FinAlgoritmo
