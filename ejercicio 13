@@ -1,0 +1,26 @@
+Algoritmo encuesta
+	definir Heidy,Julian,Kevin  Como Entero
+	Escribir "digite la edad de Heidy" 
+	leer Heidy
+	Escribir "digite la edad de Julian" 
+	leer Julian
+	Escribir "digite la edad de Kevin "
+	leer Kevin
+	si Heidy>=18  Entonces
+		Escribir "Heidy puede votar"
+	SiNo
+		Escribir "no puede acceder a la votacion "
+		
+	FinSi
+	si Julian>=18  Entonces
+		Escribir "Julian puede votar"
+	SiNo
+		Escribir "no puede acceder a la votacion "
+		
+	FinSi
+	si Kevin>=18  Entonces
+		Escribir "Kevin puede votar"
+	SiNo
+		Escribir "no puede acceder a la votacion "
+		
+	FinSi
