@@ -1,0 +1,13 @@
+Algoritmo ejercicio
+	Limpiar Pantalla
+	Escribir ""
+	Escribir "captura de numeros"
+	Escribir ""
+	Definir catNumeros Como Entero
+	Escribir "cuantos numeros quieres capturar ?" Sin Saltar
+	leer catNumeros
+	escribir""
+	definir M Como Entero
+	Dimension vNumero
+FinAlgoritmo
+	
