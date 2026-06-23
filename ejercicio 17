@@ -1,0 +1,11 @@
+Algoritmo ejercicio_17
+	n<-1;
+	i<-1
+	Dimension numeros [n]
+	Mientras i<=3 Hacer
+		Escribir "introduzca un elemento", i ,"del vector numeros "
+		
+	FinMientras
+	
+	
+FinAlgoritmo
