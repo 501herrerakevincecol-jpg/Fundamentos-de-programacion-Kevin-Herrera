@@ -1,0 +1,10 @@
+Algoritmo hasta_10
+	//se define la variable i como uno
+	definir i como entero
+	i=2
+	//se hace el ciclo for para que cuente hasta 10
+	para i<- 2 Hasta 10 Con Paso 2 Hacer
+		//se lee
+		escribir 1
+	FinPara
+FinAlgoritmo
