@@ -1,0 +1,8 @@
+Algoritmo ejemplo
+	Definir l Como Entero
+	l=0
+	Para l<-0 Hasta 33 Con Paso l+3 Hacer
+		
+		escribir l
+	FinPara
+FinAlgoritmo
