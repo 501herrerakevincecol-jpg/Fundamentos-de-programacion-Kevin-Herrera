@@ -1,0 +1,8 @@
+Fragmento_de_código
+// Definición de la función (SubProceso sin retorno)
+SubProceso mostrarMensajeSistemas()
+	// Ámbito Local: Esta variable solo existe aquí
+	Definir mensaje Local Como Caracter;
+	mensaje <- "Iniciando sistema... Abstracción completada.";
+	Escribir mensaje;
+FinSubProceso
