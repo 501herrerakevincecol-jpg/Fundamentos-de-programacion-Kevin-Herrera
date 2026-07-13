@@ -1,25 +1,23 @@
-Algoritmo ContadorMayor10
-	Dimension notas[3, 2]
-	Definir mayor, menor Como Real
-	Definir i, j Como Entero
+// Función que recibe por VALOR (Copia)
+SubProceso modificarPorValor ( numeroCopia Por Valor )
+	numeroCopia <- numeroCopia + 50;
+	Escribir "Dentro de la función (Por Valor): ", numeroCopia;
+FinSubProceso
+
+// Función que recibe por REFERENCIA (Dirección de memoria original)
+SubProceso modificarPorReferencia ( numeroOriginal Por Referencia )
+	numeroOriginal <- numeroOriginal + 50;
+	Escribir "Dentro de la función (Por Referencia): ", numeroOriginal;
+FinSubProceso
+
+Proceso Principal
+	Definir miNumero Como Entero;
 	
-	// Llenar la matriz
-	Para i <- 1 Hasta 3 Hacer
-		Para j <- 1 Hasta 2 Hacer
-			Escribir "Ingrese la nota del alumno ", i, " en el curso ", j, ":"
-			Leer notas[i, j]
-		FinPara
-	FinPara
-	
-	// Contar cuántas notas fueron mayores a 10
-	contador <- 0
-	Para i <- 1 Hasta 3 Hacer
-		Para j <- 1 Hasta 2 Hacer
-			Si (notas[i, j] > 10) Entonces
-				contador <- contador + 1
-			FinSi
-		FinPara
-	FinPara
-	
-	Escribir "La cantidad de notas mayores a 10 es: ", contador
-FinAlgoritmo
+	// CASO 1: Paso por Valor
+	miNumero <- 10;
+	Escribir "--- PRUEBA POR VALOR ---";
+	Escribir "Antes de la función: ", miNumero;
+	modificarPorValor(miNumero);
+	// La variable original permanece intacta 
+	Escribir "Después de la función: ", miNumero; 
+FinProceso
