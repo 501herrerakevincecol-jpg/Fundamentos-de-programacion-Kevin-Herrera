@@ -1,0 +1,7 @@
+Definir i como entero
+Repetir
+	Escribir "Ingrese un número"
+	Leer i
+	Escribir i
+	
+Hasta Que i == 0
