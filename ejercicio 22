@@ -1,11 +1,5 @@
-Algoritmo hasta_10
-	//se define la variable i como uno
-	definir i como entero
-	//se hace el ciclo for para que cuente hasta 10
-	para i<- 2 Hasta 10 Con Paso +2 Hacer
-		//se lee
-		escribir 1
+Algoritmo ejercicio_22
+	para i= 0 Hasta 10 con paso 2 Hacer //iteracion para mostrar de 2 en dos los numeros de 0-10
+		escribir i
 	FinPara
-	Esperar Tecla //cuando el usuario le de a enter se limpie la pantalla
-Limpiar Pantalla
 FinAlgoritmo
