@@ -1,0 +1,5 @@
+definir numero Como Entero
+Repetir
+	leer numero 
+	Escribir numero 
+Hasta Que numero ==0
